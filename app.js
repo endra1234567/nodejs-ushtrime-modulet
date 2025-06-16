@@ -12,6 +12,9 @@ app.get('/about',(req,res)=>{
 app.get('/contact',(req,res)=>{
     res.send("+383 483 3723")
 })
+app.get('/aboutandi',(req,res)=>{
+    res.send("Hi i am Andi!")
+})
 
 app.listen(3000, ()=>{
     console.log("serveri po punon me rregull")
